@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        #wrapper {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        #top-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        #top-bar span {
+            margin-right: 10px;
+        }
+
+        #top-bar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #title-description {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            gap: 10px;
+            padding: 10px 20px;
+        }
+
+        #title-description h1 {
+            margin: 0;
+        }
+
+        #title-description p {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: left;
+            background-color: #333333;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 3;
+            padding-right: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        article h2 {
+            color: #006400;
+        }
+
+        article h3 {
+            color: #333333;
+        }
+
+        article h4 {
+            color: #666666;
+        }
+
+        .meta {
+            font-size: 0.9em;
+            color: #666666;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        aside h3 {
+            color: #006400;
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside ul li a {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        footer {
+            background-color:#006400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .footer-columns {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-columns div {
+            width: 200px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin-bottom: 10px;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="top-bar">
+                <span>Welcome, Guest | <a href="#">Login</a> | <a href="#">Signup</a></span>
+                <span id="update">Stay Updated: <a href="#">Subscribe via RSS Email Updates</a></span>
+            </div>
+            <div id="title-description">
+                <h1>My Blog</h1>
+                <p>Description of My Blog</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="content">
+                <article>
+                    <h2>Don't Cancel Chuck!</h2>
+                    <p class="meta">On July 01 in <a href="#">General</a> tagged <a href="#">Positions</a> by <a href="#">admin</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                </article>
+
+                <article>
+                    <h2>Alien Spacecraft found in New Mexico</h2>
+                    <p class="meta">On July 01 in <a href="#">General</a> tagged <a href="#">Positions</a> by <a href="#">admin</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet...</li>
+                        <li>Lorem ipsum dolor sit amet...</li>
+                        <li>Lorem ipsum dolor sit amet...</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h2>Ghostly Goo in your kitchen Sink?</h2>
+                    <p class="meta">On July 01 in <a href="#">General</a> tagged <a href="#">Positions</a> by <a href="#">admin</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                </article>
+
+                <article>
+                    <h3>Header level 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum lectus ac ligula fermentum, nec vestibulum nisl efficitur. Proin imperdiet quam non turpis aliquam, at sollicitudin elit luctus. Donec nec ligula ut nisi gravida pharetra. Sed in arcu in purus vestibulum facilisis.</p>
+                </article>
+
+                <article>
+                    <h4>Header level 4</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum lectus ac ligula fermentum, nec vestibulum nisl efficitur. Proin imperdiet quam non turpis aliquam, at sollicitudin elit luctus. Donec nec ligula ut nisi gravida pharetra. Sed in arcu in purus vestibulum facilisis.</p>
+                </article>
+            </div>
+
+            <aside>
+                <section>
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">General</a></li>
+                        <li><a href="#">Ghost Sightings</a></li>
+                        <li><a href="#">UFO Crashes</a></li>
+                        <li><a href="#">Government Coverups</a></li>
+                        <li><a href="#">International Conspiracies</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li><a href="#">Ghost Sighting In Mansion</a></li>
+                        <li><a href="#">UFO Crashed by satellites</a></li>
+                        <li><a href="#">Mysterious sound at night</a></li>
+                        <li><a href="#">Bigfoot: Fact or Fiction?</a></li> 
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Archives</h3>
+                    <ul>
+                        <li><a href="#">June 2008</a></li>
+                        <li><a href="#">May 2008</a></li>
+                        <li><a href="#">April 2008</a></li>
+                        <li><a href="#">March 2008</a></li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+
+        <footer>
+            <div class="footer-columns">
+                <div class="links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#">Photoshop tutorials</a></li>
+                        <li><a href="#">Web design hotlist</a></li>
+                        <li><a href="#">Top photography websites</a></li>
+                        <li><a href="#">How to find free images</a></li> 
+                    </ul>
+                </div>
+
+                <div class="updates">
+                    <h4>Follow our updates</h4>
+                    <ul>
+                        <li><a href="#">Subscribe via RSS Feed</a></li>
+                        <li><a href="#">Email Updates</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>Copyright&; 2000. All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
